@@ -9,6 +9,10 @@ mudou** — toda a automação (GTM, CRM, WhatsApp, Telegram, Calendly, anti-fak
 
 Página única, sem build: `index.html` é o arquivo que vai pro ar.
 
+**No ar:** <https://contatocaexeta-maker.github.io/mamoplastia-formulario/>
+(repo público `contatocaexeta-maker/mamoplastia-formulario`, GitHub Pages na
+branch `main`, raiz — publicado em 14/08/2026).
+
 ## Fluxo
 
 ```
@@ -172,6 +176,7 @@ Se o Calendly não der sinal em 12s, a caixa vira um botão "agendar em outra ab
 - [ ] logo do cliente em PNG (a capa hoje não tem logo)
 - [ ] conferir se a paleta taupe (`#7A5747`) casa com o criativo desta campanha —
       ela veio do criativo nude da biomédica
-- [ ] hospedar (Vercel/Pages) e apontar a campanha
+- [x] hospedar — GitHub Pages, 14/08/2026
+- [ ] apontar a campanha pra URL
 - [ ] conferir se a 1ª pergunta personalizada do evento do Calendly é o telefone
       (é onde o `a1` cai)
