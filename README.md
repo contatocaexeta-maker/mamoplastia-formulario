@@ -77,33 +77,29 @@ criar um campo novo no CRM**, senão o nome do campo passa a mentir.
 
 ## Rastreio
 
-**GTM:** `GTM-THCNMX4W` · **Pixel Meta:** `914720614489747`
+**GTM:** `GTM-K5K5SFP4` (conta GREEN SHARK) · **Pixel Meta:** `1001727392691930`
 
-Container e pixel **próprios deste funil** (desde 14/08/2026) — não se misturam
-mais com o Shark.
+⚠️ **Compartilhados com o funil Shark**, por decisão do usuário em 17/08/2026 —
+o container próprio (`GTM-THCNMX4W` + pixel `914720614489747`) chegou a ser
+montado, mas o formulário foi revertido pro rastreio do Shark. Vantagem: esse
+container já está publicado e funcionando. Custo: os leads dos dois funis caem
+no mesmo pixel e no mesmo relatório, sem como separar no Meta.
+
+O pixel **não** fica no HTML: ele já é a tag base do `GTM-K5K5SFP4`. Colar o
+pixel também no HTML duplicaria PageView e eventos.
 
 O pixel **não** está no HTML: ele entra como tag base no GTM (All Pages), e cada
 evento do dataLayer abaixo vira uma tag `trackCustom`.
 
-### Container
+### Container próprio, se um dia voltar atrás
 
-Container **greenmamoplastia**, conta **GREEN SHARK**
-(`accounts/6369595452/containers/261278808`).
+Existe um container montado e pronto pra este funil: **greenmamoplastia**
+(`GTM-THCNMX4W`, conta GREEN SHARK, `accounts/6369595452/containers/261278808`),
+com as 11 tags do `gtm-mamoplastia-import.json` já importadas no espaço de
+trabalho — mas **nunca publicadas**, e hoje o formulário não aponta mais pra ele.
 
-O `gtm-mamoplastia-import.json` (11 tags, 10 acionadores, 3 variáveis) **já foi
-importado** em 14/08/2026, via Administrador → Importar contêiner → Default
-Workspace → **Combinar** → Adicionar ao espaço de trabalho. Resultado: 24
-adicionados, 0 excluídas.
-
-⚠️ As 24 alterações estão no **espaço de trabalho**, ainda **não publicadas** —
-falta clicar em **Enviar** no GTM. Até lá o container carrega na página mas
-nenhuma tag dispara.
-
-Se precisar refazer o import, o arquivo continua na pasta e já está com os IDs
-reais do container.
-
-Depois de publicar, confira no Preview do Tag Assistant apontando pro
-`teste-gtm.html`: cada etapa do formulário deve acender uma tag.
+Pra voltar a usá-lo: trocar o ID nos HTMLs, clicar em **Enviar** no GTM e
+conferir no Preview do Tag Assistant.
 
 | Evento no dataLayer | Evento no Meta | Quando |
 |---|---|---|
