@@ -9,9 +9,13 @@ mudou** — toda a automação (GTM, CRM, WhatsApp, Telegram, Calendly, anti-fak
 
 Página única, sem build: `index.html` é o arquivo que vai pro ar.
 
-**No ar:** <https://contatocaexeta-maker.github.io/mamoplastia-formulario/>
-(repo público `contatocaexeta-maker/mamoplastia-formulario`, GitHub Pages na
-branch `main`, raiz — publicado em 14/08/2026).
+**No ar:** <https://contatocaexeta-maker.github.io/greenhub-mamoplastia/>
+(repo público `contatocaexeta-maker/greenhub-mamoplastia`, GitHub Pages na
+branch `main`, raiz — publicado em 14/08/2026, repo renomeado em 17/08/2026).
+
+⚠️ O endereço antigo (`.../mamoplastia-formulario/`) **caiu pra 404** com o
+rename — o GitHub redireciona o repositório, mas não a URL do Pages. Se ele
+tiver sido divulgado em algum lugar, atualizar.
 
 ## Fluxo
 
