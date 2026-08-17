@@ -154,7 +154,8 @@ a ideia for separar.
 Embed inline na tela final (`CALENDLY_URL`), com `name` e `a1` (WhatsApp)
 preenchidos pela query string — o objeto `prefill` do widget não chega no iframe.
 
-⚠️ Ainda aponta pro `calendly.com/assessoriagreenlab/30min`, o mesmo do Shark.
+Evento: **`assessoriagreenlab/especialistas-em-mamoplastia`** (próprio deste
+funil desde 14/08/2026 — antes era o `30min`, herdado do Shark).
 
 Dois detalhes que já custaram tempo, não mexa sem saber:
 
@@ -171,12 +172,16 @@ Se o Calendly não der sinal em 12s, a caixa vira um botão "agendar em outra ab
 - [x] importar o `gtm-mamoplastia-import.json` no container — feito em 14/08/2026
 - [ ] **publicar o container** (botão Enviar) — as 24 alterações estão no
       workspace, ainda não no ar
-- [ ] ainda compartilhado com o Shark, decidir: **pipeline do CRM**, **URL do
-      Calendly** e os **destinatários do CallMeBot/Telegram**
+- [x] evento próprio no Calendly — feito em 14/08/2026
+- [ ] ainda compartilhado com o Shark, decidir: **pipeline do CRM** e os
+      **destinatários do CallMeBot/Telegram**
 - [ ] logo do cliente em PNG (a capa hoje não tem logo)
 - [ ] conferir se a paleta taupe (`#7A5747`) casa com o criativo desta campanha —
       ela veio do criativo nude da biomédica
 - [x] hospedar — GitHub Pages, 14/08/2026
 - [ ] apontar a campanha pra URL
-- [ ] conferir se a 1ª pergunta personalizada do evento do Calendly é o telefone
-      (é onde o `a1` cai)
+- [ ] **conferir se a 1ª pergunta do evento `especialistas-em-mamoplastia` é o
+      WhatsApp** — é onde o `a1` cai; se for outra, o telefone entra no campo
+      errado. Não deu pra verificar automaticamente (o Calendly não renderiza
+      no navegador de teste)
+- [ ] conferir o idioma do evento novo (o do Shark estava em inglês)
